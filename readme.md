@@ -27,6 +27,8 @@ If there are other features you'd like to see, please [create an issue](https://
 
 ### Contributions are welcome
 
+- Fork -> make Changes -> create pull request -> submit
+
 ---
 
 ### connect with me on
