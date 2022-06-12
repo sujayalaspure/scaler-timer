@@ -1,0 +1,15 @@
+body {
+  width: 250px;
+  height: 100px;
+  background-color: aliceblue;
+  border: 1px solid rgb(69, 90, 100);
+  border-color: #b0bec5;
+  padding: 8px;
+  color: #023047;
+}
+
+a {
+  color: #13aed5;
+  text-decoration: none;
+  text-decoration: underline;
+}

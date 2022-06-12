@@ -1,0 +1,25 @@
+{
+  "name": "scaler-timer",
+  "version": "1.0.0",
+  "description": "Extension for Scaler problem time tracking",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "webNavigation", "tabs"],
+  "icons": {
+    "128": "icon1.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.scaler.com/academy/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
