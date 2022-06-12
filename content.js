@@ -10,7 +10,7 @@ if (/(http|https):\/\/www.scaler.com\/academy\/.*\/problems\/[0-9]+.*/.test(curr
 // Main code start here
 
 chrome.runtime.onMessage.addListener(function (response, sendResponse) {
-  // console.log("Mesage->> ", response);
+  // console.log("Mesage->> ", response.url);
 
   if (/(http|https):\/\/www.scaler.com\/academy\/.*\/problems\/[0-9]+.*/.test(response.url)) {
     flag = false;
@@ -34,7 +34,7 @@ function stopWatch() {
   let gate = false;
 
   const intervalFn = function () {
-    countdown.innerHTML = new Date(time * 1000).toISOString().substr(11, 8);
+    countdown.innerText = new Date(time * 1000).toISOString().substr(11, 8);
     time++;
   };
 
@@ -63,7 +63,7 @@ function run(from = "main") {
       <div class="row bold ">
         <div class="cr-problem-user-score">
           <div class="flex row flex-ac h5 no-mgn-b">
-            <i class="cr-icon-clock m-r-5"></i><span id="timer">275</span>
+            <i class="cr-icon-clock m-r-5"></i><span id="timer">00:00:00</span>
           </div>
         </div>
       </div>`;
@@ -77,15 +77,18 @@ function run(from = "main") {
       clearInterval(checkExist);
       const currentThirdNode = parentElement.childNodes[1];
       const newNode = document.createElement("div");
+      newNode.id = "timer-container";
       newNode.innerHTML = htmlText;
       newNode.style.cssText = "margin-right: 10px; display: flex; flex-direction: row;";
       // newNode.style.marginRight = "20px";
       // newNode.style.display = "flex";
       // newNode.style.flexDirection = "row";
       // newNode.style.alignItems = "center";
-
-      parentElement.insertBefore(newNode, currentThirdNode);
-      stopWatch();
+      const hasChild = parentElement.querySelector("#timer-container") != null;
+      if (!hasChild) {
+        parentElement.insertBefore(newNode, currentThirdNode);
+        stopWatch();
+      }
     }
   }, 200); // check every 100ms
 }

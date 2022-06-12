@@ -23,7 +23,7 @@ If there are other features you'd like to see, please [create an issue](https://
 
 - Download the scaler-timer.crx from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
 - Install into chrome
-- Enjoy :firee:
+- Enjoy :fire:
 
 ### Contributions are welcome
 
