@@ -24,6 +24,13 @@ If there are other features you'd like to see, please [create an issue](https://
 - Download the scaler-timer.crx from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
 - Install into chrome
 - Enjoy :fire:
+  | if you are getting error while installing, please check the following:
+
+- download the repo to your computer
+- open chrome and go to chrome://extensions
+- allow developer mode
+- Click on load unpacked extension
+- Click on the folder name of the downloaded repo and click on load unpacked extension
 
 ### Contributions are welcome
 
