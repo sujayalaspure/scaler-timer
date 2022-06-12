@@ -1,5 +1,7 @@
 Chrome extension created for scaler Academy to track the time taken for solving the DSA problem
 
+![ScreenShot](https://raw.githubusercontent.com/alaspuresujay/scaler-timer/master/img/ss-1.png)
+
 ---
 
 ### Features
