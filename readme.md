@@ -10,6 +10,30 @@ Chrome extension created for scaler Academy to track the time taken for solving 
 - Timer embedded inside Scaler page. No need to navigate anywhere
 - Play / Pause timer
 
+### Installation
+
+- Download the scaler-timer.crx from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
+- Install into chrome
+- Enjoy :fire:
+
+📍 You might need to enable developer mode in chrome to install the extension.
+
+---
+
+:construction: if you are getting error while installing, please do the following:
+
+- Download the repo to your computer
+- Open `chrome` and go to `chrome://extensions`
+- Allow `developer mode` (Top Right side)
+- Click on `load unpacked` extension
+- Click on the folder name of the downloaded repo and click on `Load`.
+
+### Contributions are welcome
+
+- Fork -> make Changes -> create pull request -> submit
+
+---
+
 ### Upcoming features
 
 - ⏱ Switch between timer mode (counting down) and stopwatch mode (counting up)
@@ -18,28 +42,6 @@ Chrome extension created for scaler Academy to track the time taken for solving 
   and more!
 
 If there are other features you'd like to see, please [create an issue](https://github.com/alaspuresujay/scaler-timer/issues/new).
-
-### Installation
-
-- Download the scaler-timer.crx from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
-- Install into chrome
-- Enjoy :fire:
-
----
-
-:construction: if you are getting error while installing, please check the following:
-
-- download the repo to your computer
-- open chrome and go to chrome://extensions
-- allow developer mode
-- Click on load unpacked extension
-- Click on the folder name of the downloaded repo and click on load unpacked extension
-
-### Contributions are welcome
-
-- Fork -> make Changes -> create pull request -> submit
-
----
 
 ### connect with me on
 
