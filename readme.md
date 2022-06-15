@@ -1,4 +1,4 @@
-Chrome extension created for scaler Academy to track the time taken for solving the DSA problem
+Chrome extension created for `scaler Academy` to track the time taken for solving the DSA problem
 
 ![ScreenShot](https://raw.githubusercontent.com/alaspuresujay/scaler-timer/master/img/ss-1.png)
 
@@ -6,17 +6,17 @@ Chrome extension created for scaler Academy to track the time taken for solving 
 
 ### Features
 
-- Automatically detects problme page and start the time.
+- Automatically detects problem page and start the time.
 - Timer embedded inside Scaler page. No need to navigate anywhere
 - Play / Pause timer
 
 ### Installation
 
-- Download the scaler-timer.crx from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
+- Download the `scaler-timer.crx` from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
 - Install into chrome
 - Enjoy :fire:
 
-📍 You might need to enable developer mode in chrome to install the extension.
+📍 You might need to enable `developer mode` in chrome to install the extension.
 
 ---
 
