@@ -20,7 +20,7 @@ Chrome extension created for `scaler Academy` to track the time taken for solvin
 
 ---
 > **Note**:
->  if you are getting error while installing, please do the following:
+>  if you are getting error while installing, please follow below mentioned alternate steps
 
 - Download the repo to your computer
 - Open `chrome` and go to `chrome://extensions`
