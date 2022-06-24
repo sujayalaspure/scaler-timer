@@ -19,8 +19,8 @@ Chrome extension created for `scaler Academy` to track the time taken for solvin
 📍 You might need to enable `developer mode` in chrome to install the extension.
 
 ---
-
-:construction: if you are getting error while installing, please do the following:
+> **Note**:
+>  if you are getting error while installing, please do the following:
 
 - Download the repo to your computer
 - Open `chrome` and go to `chrome://extensions`
