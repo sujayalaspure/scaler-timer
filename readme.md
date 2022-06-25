@@ -12,21 +12,14 @@ Chrome extension created for `scaler Academy` to track the time taken for solvin
 
 ### Installation
 
-- Download the `scaler-timer.crx` from this [Link](https://github.com/alaspuresujay/scaler-timer/releases/tag/V1.0.0)
-- Install into chrome
-- Enjoy :fire:
-
-📍 You might need to enable `developer mode` in chrome to install the extension.
-
----
 > **Note**:
->  if you are getting error while installing, please follow below mentioned alternate steps
+>  As the extension is not published on Chrome store. You have to follow the developer steps to install it.
 
-- Download the repo to your computer
+- Download the repo to your computer and unzip it.
 - Open `chrome` and go to `chrome://extensions`
 - Allow `developer mode` (Top Right side)
 - Click on `load unpacked` extension
-- Click on the folder name of the downloaded repo and click on `Load`.
+- Select the folder name of the downloaded repo and click on `Load`.
 
 ### Contributions are welcome
 
