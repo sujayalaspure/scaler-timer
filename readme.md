@@ -10,7 +10,7 @@ Chrome extension created for `scaler Academy` to track the time taken for solvin
 - Timer embedded inside Scaler page. No need to navigate anywhere
 - Play / Pause timer
 
-### Installation
+### Installation [Link](https://github.com/alaspuresujay/scaler-timer/wiki/Installation-Instructions)
 
 > **Note**:
 >  As the extension is not published on Chrome store. You have to follow the developer steps to install it.
