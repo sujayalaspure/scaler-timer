@@ -9,11 +9,12 @@ Chrome extension created for `scaler Academy` to track the time taken for solvin
 - Automatically detects problem page and start the time.
 - Timer embedded inside Scaler page. No need to navigate anywhere
 - Play / Pause timer
+- Added Threshold time to solve a problem. (default: 45 minutes)
 
 ### Installation [Link](https://github.com/alaspuresujay/scaler-timer/wiki/Installation-Instructions)
 
 > **Note**:
->  As the extension is not published on Chrome store. You have to follow the developer steps to install it.
+> As the extension is not published on Chrome store. You have to follow the developer steps to install it.
 
 - Download the repo to your computer and unzip it.
 - Open `chrome` and go to `chrome://extensions`
