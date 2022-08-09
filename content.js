@@ -1,9 +1,11 @@
 let flag = false;
 let noticeFlag = false;
-const TIME_THRESHOLD = 2700; // seconds
+const TIME_THRESHOLD = 2800; // seconds
 
 const bannerElement = `
-  <div class="banner__icon cr-banner__icon cr-banner__icon--compact"> <div class="mascot-emoji mascot-emoji--small"> <img class="mascot-emoji__bg" src="https://assets.scaler.com/packs/images/bg-red.6e3c81.svg" alt="character background"/><img class="mascot-emoji__mascot" src="https://assets.scaler.com/packs/images/love.4dd60c.svg" alt="character"/> </div></div><div class="banner__body cr-banner__body"> <div class="banner__title"> <div class="cr-banner-title cr-banner-title--small m-b-5">You are solving this for 45 mins</div></div><div class="banner__subtitle cr-banner__subtitle cr-banner__subtitle--small"> Take a small 5 Min break and come back stronger. <br/> Trust me, Fod donge is baar. </div></div><a class="tappable" id="noticeclose" ><i class="icon-close"></i></a>
+  <div class="banner__icon cr-banner__icon cr-banner__icon--compact"> <div class="mascot-emoji mascot-emoji--small"> <img class="mascot-emoji__bg" src="https://assets.scaler.com/packs/images/bg-red.6e3c81.svg" alt="character background"/><img class="mascot-emoji__mascot" src="https://assets.scaler.com/packs/images/love.4dd60c.svg" alt="character"/> </div></div><div class="banner__body cr-banner__body"> <div class="banner__title"> <div class="cr-banner-title cr-banner-title--small m-b-5">You are solving this for ${
+    Math.floor(TIME_THRESHOLD / 60) - 1
+  } Mins </div> </div><div class="banner__subtitle cr-banner__subtitle cr-banner__subtitle--small"> Take a small 5 Min break and come back stronger. <br/> Trust me, Fod donge is baar. </div></div><a class="tappable" id="noticeclose" ><i class="icon-close"></i></a>
 `;
 
 const cssText = `position: absolute;top: 50px;right: 10px;z-index: 10;display: none;`;
@@ -49,7 +51,7 @@ function stopWatch() {
   const intervalFn = function () {
     countdown.innerText = new Date(time * 1000).toISOString().substr(11, 8);
     time++;
-    if (time >= TIME_THRESHOLD) {
+    if (time > TIME_THRESHOLD) {
       Notice();
       noticeFlag = true;
     }
